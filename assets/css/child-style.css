@@ -1,0 +1,174 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: 'Chewy', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+body,
+.tooltip,
+.popover {
+	font-family: "Muli", sans-serif !important;
+}
+
+
+.entry,
+.social-share,
+.author-box,
+.comments-template {
+	background-color: #fff;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+	display: block;
+	padding: 6%;
+}
+
+.social-share {
+	margin-top: 30px;
+}
+
+.entry-featured img.large {
+	border: none;
+	-webkit-border-bottom-left-radius: 0;
+	border-bottom-left-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+	border-bottom-right-radius: 0;
+	margin: -7% 0 40px -7%;
+	max-width: 114%;
+	width: 114%;
+	padding: 0;
+}
+
+.audio-image {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+.media-info-toggle {
+	margin-bottom: 0;
+}
+
+/*
+Hack for logo
+
+*/
+.navbar-logo-visible .navbar-logo .site-title {
+	font-size: 100%;
+	line-height: 100%;
+}
+
+
+
+.social-icons a.fa {
+    height: auto;
+    width: auto;
+    margin-left: 12px;
+}
+
+.social-icons a.fa::before {
+    line-height: 1;
+}
+
+.fa-rss::before {
+    content: "\f143";
+}
+
+.fa-twitter::before {
+    content: "\f081";
+}
+
+.fa-facebook::before {
+    content: "\f082";
+}
+
+.fa-google-plus::before {
+    content: "\f0d4";
+}
+
+.fa-youtube::before {
+    content: "\f166";
+}
+
+.fa-pinterest::before {
+    content: "\f0d3";
+}
+
+.fa-github::before {
+    content: "\f092";
+}
+
+.fa-dribbble::before {
+
+}
+
+.fa-linkedin::before {
+    content: "\f08c";
+}
+
+.fa-flickr::before {
+}
+
+.fa-instagram::before {
+}
+
+.fa-skype::before {
+}
+
+.fa-windows::before {
+}
+
+.fa-tumblr::before {
+    content: "\f174";
+}
+
+.fa-codepen::before {
+}
+
+.fa-vimeo-square::before {
+}
+
+.fa-vk::before {
+}
+
+.fa-bitbucket::before {
+    content: "\f172";
+}
+
+.fa-foursquare::before {
+}
+
+.fa-wordpress::before {
+}
+
+.fa-gittip::before {
+}
+
+.fa-renren::before {
+}
+
+.fa-stack-overflow::before {
+}
+
+.fa-stack-exchange::before {
+}
+
+.fa-trello::before {
+}
+
+.fa-weibo::before {
+}
+
+.fa-xing::before {
+    content: "\f169";
+}
