@@ -25,7 +25,7 @@ function child_theme_setup1() {
 	add_theme_support(
 		'theme-layouts',
 		array(
-			'1c-narrow' => __( '1 Column Narrow', 'hybopress' )
+			'1c-narrow' => __( '1 Column Narrow', 'tidy' )
 		),
 		array(
 			'default' => '1c-narrow', 'customizer' => true, 'customize'  => false,
