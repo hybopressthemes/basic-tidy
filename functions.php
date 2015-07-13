@@ -32,6 +32,10 @@ function child_theme_setup1() {
 		)
 	);
 
+
+	// Registering required plugin
+	add_filter( 'hybopress_registered_plugins', 'child_theme_registered_plugins' );
+
 }
 
 function child_theme_setup2() {
@@ -67,4 +71,17 @@ function child_theme_register_styles() {
 function child_theme_enqueue_styles() {
 	wp_enqueue_style( 'child-fonts' );
 	wp_enqueue_style( 'child-style' );
+}
+
+
+function child_theme_registered_plugins( $registered_plugins ) {
+
+	$registered_plugins[] = array(
+								'name'      => 'Custom Background Extended',
+								'slug'      => 'custom-background-extended',
+								'required'  => false,
+							);
+
+	return $registered_plugins;
+
 }
